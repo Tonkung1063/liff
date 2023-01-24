@@ -75,11 +75,11 @@
     }
 
       function getEnvironment() {
-          document.getElementById("os").append(liff.getOS)
-          Document.getElementById("language").append(liff.getLanguage())
-          Document.getElementById("version").append(liff.getVersion())
-          Document.getElementById("accessToken").append(liff.getAccessToken())
-          Document.getElementById("isInClient").append(liff.isInClient())
+          document.getElementById("os").append(liff.getOS())
+          document.getElementById("language").append(liff.getLanguage())
+          document.getElementById("version").append(liff.getVersion())
+          document.getElementById("accessToken").append(liff.getAccessToken())
+          document.getElementById("isInClient").append(liff.isInClient())
           if (liff.isInClient()) {
               document.getElementById("btnLogOut").style.display = "none"
           } else {
